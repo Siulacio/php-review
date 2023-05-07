@@ -7,11 +7,16 @@ class Employee
       public int $age,
       public string $position
   ) {}
+
+    public function __toString(): string
+    {
+        return sprintf("%s tiene %d años y es %s", $this->name, $this->age, $this->position);
+    }
 }
 
 $employee = new Employee('Luis', 30, 'Desarrollador');
-echo sprintf("%s tiene %d años y es %s", $employee->name, $employee->age, $employee->position);
+echo $employee;
 
-$employee = new Employee('Karen', 33, 'Contadora');
-echo sprintf("%s tiene %d años y es %s", $employee->name, $employee->age, $employee->position);
+$employee2 = new Employee('Karen', 33, 'Contadora');
+echo $employee2;
 
