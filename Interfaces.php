@@ -24,3 +24,22 @@ $holaMundo = new HolaMundo();
 echo $holaMundo->sayHello('Luis');
 echo $holaMundo->sayGoodbye('Felipe');
 
+echo"<hr>";
+echo"<h2>Crear instancias desde un constructor</h2>";
+
+class MyNewHelloWorld
+{
+    public function __construct(
+        private readonly HolaMundo $holaMundo = new HolaMundo(),
+    ) {}
+
+    public function hello($name): string
+    {
+        return $this->holaMundo->sayHello($name);
+    }
+}
+
+$myNewHelloWorld = new MyNewHelloWorld();
+echo $myNewHelloWorld->hello("Alejandro");
+
+
