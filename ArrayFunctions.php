@@ -51,6 +51,29 @@ $product = array_reduce($products, function (?array $product, array $currentProd
 });
 var_dump($product);
 
+echo "<h2>Array list - Define alises for array positions</h2>";
+echo "<hr>";
+
+$complexUsers = [
+    [1, 'Michael', 'Jordan'],
+    [2, 'Dirk', 'Nowitzki'],
+    [3, 'Kobe', 'Briant'],
+    [4, 'Steve', 'Nash'],
+];
+
+function traverseUsersLists($users = []): string
+{
+    $result = '';
+    foreach ($users as $user) {
+        list($id, $name, $lastName) = $user;
+        $result .= "{$id}, {$name}, {$lastName}<br />";
+    }
+
+    return $result;
+}
+
+echo traverseUsersLists($complexUsers);
+
 
 
 
