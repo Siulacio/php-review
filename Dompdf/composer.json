@@ -1,0 +1,14 @@
+{
+    "name": "siulacio/dompdf",
+    "description": "Generar archivo PDF con Dompdf",
+    "type": "project",
+    "require": {
+        "dompdf/dompdf": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Luis Palacio",
+            "email": "siulacio@hotmail.com"
+        }
+    ]
+}
