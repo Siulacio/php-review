@@ -12,7 +12,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/Dompdf/composer.json" />
+    </option>
+  </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/Psr4/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
@@ -43,7 +49,20 @@
       </RecentBranches>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+    <include_path>
+      <path value="$PROJECT_DIR$/Psr4/vendor/composer" />
+      <path value="$PROJECT_DIR$/Dompdf/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/Dompdf/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/Dompdf/vendor/composer" />
+      <path value="$PROJECT_DIR$/Dompdf/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/Dompdf/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/Dompdf/vendor/dompdf/dompdf" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="2PTDJMBEQ7C5vqFs5qHQKZFurlR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -74,6 +93,9 @@
       <updated>1683472104349</updated>
       <workItem from="1683472105706" duration="3759000" />
       <workItem from="1683492577366" duration="1752000" />
+      <workItem from="1684926688107" duration="5183000" />
+      <workItem from="1685156298285" duration="1265000" />
+      <workItem from="1685215038926" duration="3673000" />
     </task>
     <servers />
   </component>
